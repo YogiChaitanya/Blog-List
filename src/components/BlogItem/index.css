@@ -1,0 +1,18 @@
+/* Write your CSS code here */
+
+.list-card {
+  padding: 0px;
+  margin: 0px;
+}
+
+.title-published-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+@media (max-width: 576px) {
+  .title-published-card {
+    width: 90%;
+  }
+}
